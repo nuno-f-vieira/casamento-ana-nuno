@@ -414,12 +414,6 @@ function submitRSVP(){
     alert('Sem ligação. Por favor tente novamente.');
   });
 }
-  var name=document.getElementById('rsvpName').value.trim();
-  var email=document.getElementById('rsvpEmail').value.trim();
-  var attend=document.getElementById('rsvpAttend').value;
-  if(!name||!email||!attend){alert('Por favor preencha os campos obrigatórios.');return}
-  document.getElementById('rsvpForm').innerHTML='<div class="rsvp-ok"><p>Obrigado, '+name+'!</p><p>A sua confirmação foi registada. Até breve!</p></div>';
-}
 </script>
 </body>
 </html>
